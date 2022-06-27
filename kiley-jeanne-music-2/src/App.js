@@ -5,6 +5,7 @@ import AboutMe from './components/aboutMe/AboutMe'
 import Youtube from './components/youtube/Youtube'
 import Instagram from './components/instagram/Instagram';
 import Footer from './components/footer/Footer'
+import ContactForm from './components/contactForm/ContactForm';
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
       <header className="App-header">
         <Hero/>
         <Schedule/>
+        <ContactForm/>
         <Listen/>
         <AboutMe/>
         <Youtube/>

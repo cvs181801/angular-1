@@ -19,6 +19,8 @@ export default function Schedule() {
         }
     }
 
+    <button>BOOK / CONTACT</button>
+
     useEffect(()=>{
         getScheduleContent()
     },[])
